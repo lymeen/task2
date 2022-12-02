@@ -1,0 +1,122 @@
+<html>
+<head>
+    <title>FORM</title>
+    <h1>Register form!</h1>
+</head>
+<body>
+    <nav>
+        <a href="" aria-current="page">Registration</a>
+        <a href="login.html">Login</a>
+        <a href="home.html">Home</a>
+    </nav>
+
+
+    <div>
+        <form action="">
+            <fieldset>
+                <legend>Personal Info:</legend>
+                <table>
+                    <tr>
+                        <td><label for="lastname">Enter your lastname:</td>
+                            <td><input required type= "text" id="lastname" placeholder="lastname"></td>
+                        </label><br>
+                    </tr>
+
+                    <tr>
+                        <td><label for="name">Enter your name:</td>
+                            <td><input required type= "text" id="name" placeholder="name" ></td>
+                        </label><br>
+                    </tr>
+                </table>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Gender:</legend>
+                <table>
+                    <tr>
+                        <td><label for="male">Male:</td>
+                            <td><input type="radio" name="gender" id="male"></td>
+                        </label><br>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="female">Female:</td>
+                            <td><input type="radio" name="gender" id="female"></td>
+                        </label><br>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="gender-fluid">Gender-fluid:</td>
+                            <td><input type="radio" name="gender" id="gender-fluid"></td>
+                        </label><br>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="non-binary">Non-binary:</td>
+                            <td><input type="radio" name="gender" id="non-binary"></td>
+                        </label><br>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="preference">Prefer no to say:</td>
+                            <td><input type="radio" name="gender" id="prefer no to say"></td>
+                        </label><br>
+                    </tr>
+                </table>
+            </fieldset>
+            
+            
+            <fieldset>
+                <legend>City:</legend>
+                <select name="city" id="city">
+                    <option value="astana">Astana</option>
+                    <option value="nyc">NYC</option>
+                    <option value="almaty">Almaty</option>
+                    <option value="shym">Shymkent</option>
+                    <option value="tor">Toronto</option>
+                </select>
+            </fieldset>
+            
+            <fieldset>
+                <legend>List:</legend>
+                dog:<input type="checkbox" name="dog" id="dog">
+                cat:<input type="checkbox" name="dog" id="dog">
+            </fieldset>
+            
+            <fieldset>
+                <table>
+                    <legend>Mail:</legend>
+                    <tr>
+                        <td><label for="email">Email:</td>
+                            <td><input type="email" name="email" id="email"></td>
+                        </label>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="password">Password:</td>
+                            <td><input type="password" name="password" id="password"></td>
+                        </label>
+                    </tr>
+                </table>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Phone number:</legend>
+                <label for="tel">Tel:<input type="tel" name="tel" id="tel">
+                </label>
+            </fieldset>
+            
+            
+            <fieldset>
+                <legend>Date:</legend>
+                <label for="date">date: <input type="date" name="date" id="date" role="alert">
+                </label>
+            </fieldset>
+        </form>
+        
+        
+        <button class="submit" type="button"><a href="login.html">Submit</a></button>
+    </div>
+
+</body>
+</html>
